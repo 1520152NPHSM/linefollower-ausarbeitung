@@ -154,22 +154,35 @@ Die optimale Strategie für $L_0$ ist im Graph \ref{fig:zwei_sensoren_optimale_s
     % (4) edge node [left] {0.2} (3)
     %     edge [loop right] node {0.6} (4)
     %     edge [bend right] node[right] {0.2} (1);
-    (1) edge [loop left] node {$a_1$} (1)
+    (1) edge [loop above] node {$a_1$} (1)
     (2) edge node [above] {$a_2$} (3)
+        edge [loop left] node {$a_2$} (2)
     (3) edge node [right] {$a_2$} (1)
     (4) edge node [left] {$a_2$} (2)
-    	edge [bend above] node[above] {$a_0$} (5)
+        edge [bend above] node [above] {$a_0$} (5)
     (5) edge [bend left] node {$a_0$} (8)
+        edge [bend right] node [right] {$a_0$} (1)
     (6) edge node [left] {$a_0$} (8)
-    	edge node [right] {$a_2$} (3)
+        edge [bend left] node [left] {$a_2$} (3)
     (7) edge node [left] {$a_0$} (5)
-    	edge node [left] {$a_2$} (2)
-    (8) edge [bend left] node[left] {$a_0$} (1);
+        edge [bend left] node [left] {$a_2$} (2)
+    (8) edge [bend right] node [left below] {$a_0$} (1);
 \end{tikzpicture}
 \caption{Optimale Strategie bei drei Sensoren} 
 \label{fig:drei_sensoren_optimale_strategie}
 \end{figure}
 
 Bei beiden Linienfolgern wurden die optimalen Aktionen für alle Zustände alle 50 Lernschritte protokoliert.
+
+Tabelle für $L_0$ hier.
+
+Tabelle für $L_1$ hier.
+
+Die gelerneten Strategien weichen nach 2000 Trainingszyklen bei beiden Linienfolgern weitgehend von der optimalen Strategie ab. \par
+Bei $L_0$ ist die gewinkelte Anordnung der Sensoren ein Problem, da die beiden Lichtsensoren nicht dasselbe Lichtkegelzentrum haben. Die beiden Lichtkegel überschneiden sich nur in den Außenbereichen. Dies läst sich aufgrund der vorgegebenen Legobauteile nicht vermeiden. Dies führt zu einer fehlerhaften Erkennung von $s_3$. Des Weiteren können die Sensoren aufgrund der Bauweise nicht star befestigt werden und schwanken sommit im Berreich der Lichtkegel. Dies führt zu Messungenauigkeiten. \par
+Der Einsatz von drei Sensoren in $L_1$ führt zu neuen Schwierigkeiten, da für manche Zustände die optimale Lösung von der auftretenden Situation abhänig ist und sommit eine einmal gelerente Lösung zu einem späteren Zeitpunkt zu einer faschen Lösung führen kann. Auch führt der größere Zustandsraum zu ... \par
+Anzumerken ist das die Zustände nach über 2000 Lernzyklen noch übermässig fluktuieren und sich nicht einpendeln.
+
+- Probleme -> Ursachen -> Lösung (falls vorhanden)  
 
 % chapter evaluation (end)

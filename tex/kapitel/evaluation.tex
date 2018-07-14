@@ -134,7 +134,8 @@ Durch theoretische Überlegungen kommt man für beide Linienfolger auf optimale 
 
           \path[every node/.style={font=\sffamily\small}]
             (1) edge node [left] {$a_0$} (3)
-            (2) edge node [left] {$a_0$, $a_1$, $a_2$} (3)
+            (2) edge node [left] {$a_2$} (1)
+                edge [bend below] node [top] {$a_1$} (4)
             (3) edge [loop below] node {$a_1$} (3)
             (4) edge node [left] {$a_2$} (3);
         \end{tikzpicture}

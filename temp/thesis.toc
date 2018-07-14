@@ -14,7 +14,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Reinforcement Learning}{3}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Q-Learning}{4}{section.3.2}
+\contentsline {section}{\numberline {3.2}Q-Learning}{5}{section.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Implementierung}{6}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -22,12 +22,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Fazit}{12}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{ii}{chapter*.13}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{ii}{chapter*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.14}
+\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{iii}{section*.16}
+\contentsline {chapter}{Abbildungsverzeichnis}{iii}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Quellcodeverzeichnis}{iv}{section*.18}
+\contentsline {chapter}{Quellcodeverzeichnis}{iv}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{vi}{chapter*.20}
+\contentsline {chapter}{\nonumberline Literatur}{vi}{chapter*.21}

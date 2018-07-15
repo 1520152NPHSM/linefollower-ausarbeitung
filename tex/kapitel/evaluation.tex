@@ -10,7 +10,7 @@ Für die Erprobung des Q-Learning-Algorithmus wurden zwei Linienfolger und eine 
 	\label{fig:kurs}
 \end{figure}
 
-Die beiden Linienfolger unterscheiden sich in der Anzahl und der Anordnung der Farbsensoren. Der erste Linienfolger $L_0$ verfügt über drei Farbsensoren (siehe Abbildung \ref{fig:linienfolger-drei-sensoren}), die nebeneinander angeordnet sind. Die schwarze Linie besitzt dieselbe Breite wie der Lichtkegel eines Farbsensors. Sommit ist der Linienfolger optimal Positioniert falls nur der mittlere Sensor Schwarz und die beiden außenliegenden Sensoren Weiß erkennen. Im Gegensatz zum ersten Linienfolger besitzt der zweite Linienfolger $L_1$ zwei Farbsensoren, die angewinkelt angeordnet sind (siehe Abbildung \ref{fig:linienfolger-zwei-sensoren}). Im optimalen Fall liegt die Linie genau in den sich überschneidenden Lichtkegeln der zwei Sensoren.
+Die beiden Linienfolger unterscheiden sich in der Anzahl und der Anordnung der Farbsensoren. Der erste Linienfolger $L_0$ verfügt über drei Farbsensoren (siehe Abbildung \ref{fig:linienfolger-drei-sensoren}), die nebeneinander angeordnet sind. Die schwarze Linie besitzt dieselbe Breite wie der Lichtkegel eines Farbsensors. Es ist gewünscht, dass die Linie immer unter dem mittleren Sensor ist. Im Gegensatz zum ersten Linienfolger besitzt der zweite Linienfolger $L_1$ zwei Farbsensoren, die angewinkelt angeordnet sind (siehe Abbildung \ref{fig:linienfolger-zwei-sensoren}). Im optimalen Fall liegt die Linie genau in den sich überschneidenden Lichtkegeln der zwei Sensoren.
 
 \begin{figure}[H]
     \centering
@@ -78,8 +78,11 @@ Die Sensoranordnungen der Linienfolger führt zu zwei unterschiedlichen Zustands
 
 Zur Erreichung eines anderen Zustandes können beide Linienfolger folgende Aktionen (siehe Tabelle \ref{tab:aktionen}) ausführen. Beide Linienfolger benutzten die selben Motorgeschwindigkeiten und Ruhezeiten um die Vergleichbarkeit bei der Aktionsausführung zu garantieren. Beide Linienfolger nutzen für das Q-Learning die gleichen Parameter (siehe Tabelle \ref{tab:q-parameter}), um die Vergleichbarkeit der Ergebnisse zu gewährleisten.
 
-\begin{table}[H]
-  \caption{Aktionen}
+\begin{table}
+\centering
+
+\begin{minipage}{.4\textwidth}
+\caption{Aktionen}
   \label{tab:aktionen}
   \renewcommand{\arraystretch}{1.2}
   \centering
@@ -89,17 +92,16 @@ Zur Erreichung eines anderen Zustandes können beide Linienfolger folgende Aktio
     \toprule
     \textbf{Aktion} & \textbf{Beschreibung}\\
     \midrule
-    $a_0$	&	Linkskurve\\
-    $a_1$	&	Ge­ra­de­aus­fahrt\\
-    $a_2$	&	Rechtskurve\\
+    $a_0$ & Linkskurve\\
+    $a_1$ & Ge­ra­de­aus­fahrt\\
+    $a_2$ & Rechtskurve\\
     \bottomrule
     \end{tabular}
   \end{footnotesize}
   \rmfamily
-\end{table}
-\quad
-\begin{table}[H]
-  \caption{Q-Learning-Parameter}
+\end{minipage}\hfill
+\begin{minipage}{.4\textwidth}
+\caption{Q-Learning-Parameter}
   \label{tab:q-parameter}
   \renewcommand{\arraystretch}{1.2}
   \centering
@@ -109,13 +111,15 @@ Zur Erreichung eines anderen Zustandes können beide Linienfolger folgende Aktio
     \toprule
     \textbf{Parameter} & \textbf{Wert}\\
     \midrule
-    $\alpha$	&	$0.9$\\
-    $\gamma$	&	$0.2$\\
-    $\epsilon$	&	$0.1$\\
+    $\alpha$  & $0.9$\\
+    $\gamma$  & $0.2$\\
+    $\epsilon$  & $0.1$\\
     \bottomrule
     \end{tabular}
   \end{footnotesize}
   \rmfamily
+\end{minipage}\hfill
+
 \end{table}
 
 Durch theoretische Überlegungen kommt man für beide Linienfolger auf optimale Aktionen, die für einen Zustand ausgeführt werden sollen. Während diese bei $L_1$ (siehe Abbildung \ref{fig:zwei_sensoren_optimale_strategie}) leicht herzuleiten sind, ist dies bei $L_0$ (siehe Abbildung \ref{fig:drei_sensoren_optimale_strategie}) durch den größeren Zustandsraum ungleich schwieriger.\footnote{Bei beiden Graphen wurden nicht alle möglichen sinvollen Aktionen angegeben.} Bei drei Sensoren liegen zwei Zustände $s_5$ und $s_7$ vor, die nicht optimal sind. $s_5$ kann nur angenommen werden, falls $L_0$ genau auf einer Linienlücke steht.
@@ -233,8 +237,8 @@ Bei beiden Linienfolgern wurden die optimalen Aktionen für jeden Zustand alle 2
   \rmfamily
 \end{table}
 
-Der Einsatz von drei Sensoren in $L_0$ führt zu neuen Schwierigkeiten, da für manche Zustände die optimale Lösung von der auftretenden Situation abhänig ist und sommit eine einmal gelerente Lösung zu einem späteren Zeitpunkt zu einer faschen Lösung führen kann.\par
-Bei $L_1$ ist die gewinkelte Anordnung der Sensoren ein Problem, da die Lichtkegel der Sensoren sich nicht hundertprozentig überschneiden. Die beiden Lichtkegel überschneiden sich nur in den Außenbereichen. Dies läst sich aufgrund der vorgegebenen Legobauteile nicht vermeiden. Dies führt zu einer fehlerhaften Erkennung von $s_3$. Des Weiteren können die Sensoren aufgrund der Bauweise nicht star befestigt werden und schwanken sommit im Bereich der Lichtkegel. Dies führt zu Messungenauigkeiten. Bei drei Sensoren kann der Linienfolger zwischen den Zuständen $s_1$ und $s_4$ wechseln, ohne vom Fleck zu kommen. Dies kann durch Herabsetzung der Ruhezeiten oder der Motorgeschwindigkeit behoben werden.\par
+Der Einsatz von drei Sensoren in $L_0$ führt zu neuen Schwierigkeiten, da für manche Zustände die optimale Lösung von der auftretenden Situation abhänig ist und somit eine einmal gelerente Lösung zu einem späteren Zeitpunkt zu einer faschen Lösung führen kann.\par
+Bei $L_1$ ist die gewinkelte Anordnung der Sensoren ein Problem, da die Lichtkegel der Sensoren sich nicht hundertprozentig überschneiden. Die beiden Lichtkegel überschneiden sich nur in den Außenbereichen. Dies läst sich aufgrund der vorgegebenen Legobauteile nicht vermeiden. Dies führt zu einer fehlerhaften Erkennung von $s_3$. Des Weiteren können die Sensoren aufgrund der Bauweise nicht star befestigt werden und schwanken somit im Bereich der Lichtkegel. Dies führt zu Messungenauigkeiten. Bei drei Sensoren kann der Linienfolger zwischen den Zuständen $s_1$ und $s_4$ wechseln, ohne vom Fleck zu kommen. Dies kann durch Herabsetzung der Ruhezeiten oder der Motorgeschwindigkeit behoben werden.\par
 Im Allgemeinen ist die optimale Kombination aus Ruhezeiten und Motorgeschwindigkeit von der Sensoranzahl und -anordnung abhängig. Diese ist bei beiden Linienfolgern noch nicht optimal. 
 
 % chapter evaluation (end)

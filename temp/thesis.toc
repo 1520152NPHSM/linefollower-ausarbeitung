@@ -10,24 +10,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Lego Mindstorm EV3}{2}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Machinelles Lernen in der Robotik}{3}{chapter.3}
+\contentsline {chapter}{\numberline {3}Maschinelles Lernen in der Robotik}{4}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Reinforcement Learning}{3}{section.3.1}
+\contentsline {section}{\numberline {3.1}Reinforcement Learning}{4}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Q-Learning}{5}{section.3.2}
+\contentsline {section}{\numberline {3.2}Q-Learning}{6}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Implementierung}{6}{chapter.4}
+\contentsline {chapter}{\numberline {4}Evaluation}{7}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation}{7}{chapter.5}
+\contentsline {chapter}{\numberline {5}Fazit}{12}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Fazit}{12}{chapter.6}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{ii}{chapter*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{ii}{chapter*.14}
+\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{ii}{section*.15}
+\contentsline {chapter}{Abbildungsverzeichnis}{iii}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{iii}{section*.17}
+\contentsline {chapter}{Quellcodeverzeichnis}{iv}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Quellcodeverzeichnis}{iv}{section*.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{vi}{chapter*.21}
+\contentsline {chapter}{\nonumberline Literatur}{vi}{chapter*.20}

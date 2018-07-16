@@ -34,8 +34,8 @@ Beim Q-Learning wird eine neue Bewertungsfunktion $Q(s, a)$ eingeführt. Die opt
 definiert. Der Wert der aktuellen Bewertungsfunktion ist somit die Belohnung des aktuellen Zustandes und der Wert der abgeschwächten Nachfolgezustandsbewertungsfunktionen. Des Weiteren benutzt man meist noch eine Lernrate $\alpha$:
 \begin{equation}
 	Q(s_t, a_t) = Q(s_t, a_t) + \alpha[r_t + \gamma \ max_a Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t)]
-\end{equation} \cite{Ertel_2013}
-Durch $\epsilon$ wird mit einer gewissen Wahrscheinlichkeit nicht die optimale sondern eine zufällige Aktion ausgeführt.\par
+\end{equation}
+Durch $\epsilon$ wird mit einer gewissen Wahrscheinlichkeit nicht die optimale sondern eine zufällige Aktion ausgeführt. \cite{Ertel_2013}\par
 Zu Anfang werden die Werte der Bewertungsfunktionen zufällig initialisiert. Für den aktuellen Zustand wird die Aktion mit der größten Bewertungsfunktion ausgeführt und der neue Zustand und die daraus resultierende Belohnung analysiert. Der Wert der Bewertungsfunktion $Q(a, b)$ wird aktualisiert. Anschließend wird mit dem neuen Zustand wie mit dem vorherigen Verfahren. Dies wiederholt sich bis ein Endzustand erreicht worden ist. \cite{Ertel_2013}\par
 Der Einsatz von Q-Learning für einen Linienfolger wird im nächsten Kapitel anhand zweier verschiedener Linienfolger evaluiert.
 % section q_learning (end)

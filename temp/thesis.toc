@@ -8,7 +8,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Linienfolger}{2}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Lego Mindstorm EV3}{2}{section.2.2}
+\contentsline {section}{\numberline {2.2}Lego Mindstorms EV3}{2}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Maschinelles Lernen in der Robotik}{4}{chapter.3}
 \defcounter {refsection}{0}\relax 

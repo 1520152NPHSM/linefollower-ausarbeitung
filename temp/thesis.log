@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.11)  16 JUL 2018 09:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.11)  16 JUL 2018 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1899,20 +1899,21 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 14.
-) (./kapitel/machinelles-lernen.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2.
+(babel)             in language  on input line 19.
  [2
 
-]
+])
+(./kapitel/machinelles-lernen.tex
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2034,15 +2035,15 @@ Package babel Info: Redefining ngerman shorthand "~
  [7
 
  <./bilder/kurs.png>]
-Overfull \hbox (13.80301pt too wide) in paragraph at lines 31--32
-\T1/ptm/m/n/12 sräu-men. Die Zustände bei-der Lin-ien-fol-ger sind in den Tabel
-len [][]4.1[][] und [][]4.2[][] angegeben. 
+Overfull \hbox (9.13513pt too wide) in paragraph at lines 31--32
+\T1/ptm/m/n/12 räumen. Die Zustände bei-der Lin-ien-fol-ger sind in den Tabelle
+n [][]4.1[][] und [][]4.2[][] angegeben. 
  []
 
 
-Overfull \hbox (2.35031pt too wide) in paragraph at lines 79--80
-\T1/ptm/m/n/12 Pa-ram-e-ter (siehe Tabelle [][]4.4[][]), um die Ver-gle-ich-bar
-keit der Ergeb-nisse zu gewährleis-
+Overfull \hbox (19.29414pt too wide) in paragraph at lines 79--80
+\T1/ptm/m/n/12 Pa-ram-e-ter (siehe Tabelle [][]4.4[][]) ein, um die Ver-gle-ich
+-barkeit der Ergeb-nisse zu gewährleis-
  []
 
 
@@ -2059,6 +2060,10 @@ Package babel Info: Redefining ngerman shorthand "~
 
 [8 <./bilder/linienfolger-drei-sensoren.png> <./bilder/linienfolger-zwei-sensor
 en.png>]
+Overfull \hbox (36.0962pt too wide) in paragraph at lines 91--102
+ [][] 
+ []
+
 
 ! Package pgfkeys Error: I do not know the key '/tikz/bend below' and I am goin
 g to ignore it. Perhaps you misspelled it.
@@ -2284,7 +2289,7 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  41418 strings out of 494590
  806760 string characters out of 6177483
- 1393563 words of memory out of 5000000
+ 1393567 words of memory out of 5000000
  44351 multiletter control sequences out of 15000+600000
  597914 words of font info for 102 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -2306,7 +2311,7 @@ t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts
 /urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ../temp/thesis.pdf (19 pages, 15944831 bytes).
+Output written on ../temp/thesis.pdf (19 pages, 15944821 bytes).
 PDF statistics:
  337 PDF objects out of 1000 (max. 8388607)
  286 compressed objects within 3 object streams

@@ -137,11 +137,11 @@ Durch theoretische Überlegungen kommt man für beide Linienfolger auf optimale 
           \node[main node] (4) [below right of=1] {$s_2$};
 
           \path[every node/.style={font=\sffamily\small}]
-            (1) edge node [left] {$a_0$} (3)
+            (1) edge node [left] {$a_2$} (3)
             (2) edge node [left] {$a_2$} (1)
                 edge [bend below] node [top] {$a_1$} (4)
             (3) edge [loop below] node {$a_1$} (3)
-            (4) edge node [left] {$a_2$} (3);
+            (4) edge node [left] {$a_0$} (3);
         \end{tikzpicture}
         \caption{Optimale Strategie bei zwei Sensoren}
         \label{fig:zwei_sensoren_optimale_strategie}

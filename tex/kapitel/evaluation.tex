@@ -186,35 +186,6 @@ Durch theoretische Überlegungen kommt man für beide Linienfolger auf optimale 
 Bei beiden Linienfolgern wurden die optimalen Aktionen für jeden Zustand alle 200 Lernschritte archiviert (siehe Tabelle \ref{tab:q-values-three-sensors} für $L_0$ und \ref{tab:q-values-two-sensors} für $L_1$). Ein Vergleich mit den theoretisch optimalen Werten zeigt eine Abweichung. Des Weitern fluktuieren die Aktionen auch nach 2000 Lernschritten für beide Linenfolger noch beträchtlich.
 
 \begin{table}[h]
-  \caption{Q-Werte für zwei Sensoren}
-  \label{tab:q-values-two-sensors}
-  \renewcommand{\arraystretch}{1.2}
-  \centering
-  \sffamily
-  \begin{footnotesize}
-    \begin{tabular}{l l l l l}
-    \toprule
-       &   \multicolumn{4}{c}{\textbf{Zustände}}             \\
-    \cmidrule(lr){2-5}
-    \textbf{Schritte} & \textbf{$s_0$} & \textbf{$s_1$} & \textbf{$s_2$} & \textbf{$s_3$}\\
-    \midrule
-    200     &       $a_2$   &       $a_1$   &       $a_1$   &       $a_0$\\
-    400  &       $a_0$   &       $a_0$   &       $a_0$   &       $a_1$\\
-    600  &       $a_0$   &       $a_0$   &       $a_2$       &       $a_1$\\
-    800  &       $a_0$   &       $a_2$   &       $a_1$   &       $a_1$\\
-    1000 &       $a_1$   &       $a_2$   &       $a_0$   &       $a_2$\\
-    1200 &       $a_1$   &  $a_1$    &       $a_1$   &       $a_0$\\
-    1400 &       $a_0$   &       $a_1$   &       $a_0$   &       $a_0$\\
-    1600 &       $a_2$   &       $a_0$   &       $a_0$   &       $a_2$\\
-    1800 &  $a_2$    &       $a_2$   &       $a_1$   &       $a_2$\\
-    2000 &       $a_2$   &       $a_2$   &       $a_0$   &       $a_0$\\
-    \bottomrule
-    \end{tabular}
-  \end{footnotesize}
-  \rmfamily
-\end{table}
-
-\begin{table}[h]
   \caption{Q-Werte für drei Sensoren}
   \label{tab:q-values-three-sensors}
   \renewcommand{\arraystretch}{1.2}
@@ -243,8 +214,37 @@ Bei beiden Linienfolgern wurden die optimalen Aktionen für jeden Zustand alle 2
   \rmfamily
 \end{table}
 
+\begin{table}[h]
+  \caption{Q-Werte für zwei Sensoren}
+  \label{tab:q-values-two-sensors}
+  \renewcommand{\arraystretch}{1.2}
+  \centering
+  \sffamily
+  \begin{footnotesize}
+    \begin{tabular}{l l l l l}
+    \toprule
+       &   \multicolumn{4}{c}{\textbf{Zustände}}             \\
+    \cmidrule(lr){2-5}
+    \textbf{Schritte} & \textbf{$s_0$} & \textbf{$s_1$} & \textbf{$s_2$} & \textbf{$s_3$}\\
+    \midrule
+    200     &       $a_2$   &       $a_1$   &       $a_1$   &       $a_0$\\
+    400  &       $a_0$   &       $a_0$   &       $a_0$   &       $a_1$\\
+    600  &       $a_0$   &       $a_0$   &       $a_2$       &       $a_1$\\
+    800  &       $a_0$   &       $a_2$   &       $a_1$   &       $a_1$\\
+    1000 &       $a_1$   &       $a_2$   &       $a_0$   &       $a_2$\\
+    1200 &       $a_1$   &  $a_1$    &       $a_1$   &       $a_0$\\
+    1400 &       $a_0$   &       $a_1$   &       $a_0$   &       $a_0$\\
+    1600 &       $a_2$   &       $a_0$   &       $a_0$   &       $a_2$\\
+    1800 &  $a_2$    &       $a_2$   &       $a_1$   &       $a_2$\\
+    2000 &       $a_2$   &       $a_2$   &       $a_0$   &       $a_0$\\
+    \bottomrule
+    \end{tabular}
+  \end{footnotesize}
+  \rmfamily
+\end{table}
+
 Der Einsatz von drei Sensoren in $L_0$ führt zu neuen Schwierigkeiten, da für manche Zustände die optimale Lösung von der auftretenden Situation abhängig ist und somit eine einmal gelernte Lösung zu einem späteren Zeitpunkt zu einer falschen Lösung führen kann.\par
-Bei $L_1$ ist die gewinkelte Anordnung der Sensoren ein Problem, da die Lichtkegel der Sensoren sich nicht hundertprozentig überschneiden. Die beiden Lichtkegel überschneiden sich nur in den Außenbereichen. Dies läst sich Aufgrund der vor\-ge\-ge\-benen Legobauteile nicht vermeiden. Dies führt zu einer fehlerhaften Erkennung von $s_3$. Des Weiteren können die Sensoren aufgrund der Bauweise nicht star befestigt werden und schwanken somit im Bereich der Lichtkegel. Dies führt zu Messungenauigkeiten. Bei drei Sensoren kann der Linienfolger zwischen den Zuständen $s_1$ und $s_4$ wechseln, ohne vom Fleck zu kommen. Dies kann durch Herabsetzung der Ruhezeiten oder der Motorgeschwindigkeit behoben werden.\par
+Bei $L_1$ ist die gewinkelte Anordnung der Sensoren ein Problem, da die Lichtkegel der Sensoren sich nicht hundertprozentig überschneiden. Die beiden Lichtkegel überschneiden sich nur in den Außenbereichen. Dies läst sich Aufgrund der vor\-ge\-ge\-benen Legobauteile nicht vermeiden. Dies führt zu einer fehlerhaften Erkennung von $s_3$. Des Weiteren können die Sensoren aufgrund der Bauweise nicht star befestigt werden und schwanken somit im Bereich der Lichtkegel. Dies führt zu Messungenauigkeiten. Bei drei Sensoren kann der Linienfolger $L_0$ zwischen den Zuständen $s_1$ und $s_4$ wechseln, ohne vom Fleck zu kommen. Dasselbe passiert bei $L_1$, da der Linienfolger für $s_1$ eine Rechtskurve fährt. Anschließend gelangt er in $s_3$, bekommt eine Belohnung und fährt eine Linkskurve. Dies geschieht in einer Endlosschleife, die nur durch die durch $\epsilon$-greedy aufgebrochen werden kann. Dies kann durch Herabsetzung der Ruhezeiten oder der Motorgeschwindigkeit behoben werden.\par
 Im Allgemeinen ist die optimale Kombination aus Ruhezeiten und Motorgeschwindigkeit von der Sensoranzahl und -anordnung abhängig. Diese ist bei beiden Linienfolgern noch nicht optimal. 
 
 % chapter evaluation (end)

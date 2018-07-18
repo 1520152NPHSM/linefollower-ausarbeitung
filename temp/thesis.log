@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.11)  18 JUL 2018 08:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.11)  18 JUL 2018 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2155,6 +2155,21 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 247.
 
 [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 248.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 248.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 248.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 248.
+
+[10]
 Overfull \hbox (24.72903pt too wide) in paragraph at lines 248--249
 []\T1/ptm/m/n/12 Im All-ge-meinen ist die op-ti-male Kom-bi-na-tion aus Ruhezei
 t-en und Mo-torgeschwindigkeit
@@ -2172,7 +2187,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
-[10]
+[11]
 chapter 5.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -2193,19 +2208,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 49.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 49.
- [11
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 49.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 49.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 49.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 49.
  [12
-
 
 ]
 chapter without number
@@ -2235,6 +2238,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
                    \relax 
 l.66 \listoftables
                    [2
+
+
 
 ] (../temp/thesis.lot)
 \tf@lot=\write9
@@ -2299,7 +2304,7 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  41479 strings out of 494590
  807852 string characters out of 6177483
- 1402645 words of memory out of 5000000
+ 1403645 words of memory out of 5000000
  44410 multiletter control sequences out of 15000+600000
  597914 words of font info for 102 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -2321,7 +2326,7 @@ t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts
 /urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ../temp/thesis.pdf (19 pages, 15945783 bytes).
+Output written on ../temp/thesis.pdf (19 pages, 15946176 bytes).
 PDF statistics:
  335 PDF objects out of 1000 (max. 8388607)
  284 compressed objects within 3 object streams

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.11)  17 JUL 2018 09:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.11)  18 JUL 2018 08:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1576,15 +1576,20 @@ File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 \pgfnodepartsixbox=\box81
 \pgfnodepartfivebox=\box82
 )))
-Package hyperref Info: Option `colorlinks' set `true' on input line 88.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count455
+\c@subtable=\count456
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 94.
 Package scrkbase Info: You've told me to redefine the font selection of the
 (scrkbase)             element `pagehead' that is an alias of element
-(scrkbase)             `pageheadfoot' on input line 147.
+(scrkbase)             `pageheadfoot' on input line 153.
 
 
 Package scrkbase Warning: `pagehead' is only an alias of `pageheadfoot'.
 (scrkbase)                Font of page foot may also be changed on input line 1
-47.
+53.
 
 \@indexfile=\write6
 \openout6 = `thesis.idx'.
@@ -1636,16 +1641,16 @@ LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count455
+\scratchcounter=\count457
 \scratchdimen=\dimen296
 \scratchbox=\box83
-\nofMPsegments=\count456
-\nofMParguments=\count457
+\nofMPsegments=\count458
+\nofMParguments=\count459
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count458
+\MPscratchCnt=\count460
 \MPscratchDim=\dimen297
-\MPnumerator=\count459
-\makeMPintoPDFobject=\count460
+\MPnumerator=\count461
+\makeMPintoPDFobject=\count462
 \everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1664,7 +1669,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count461
+\c@lstlisting=\count463
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: hypcap package is loaded.
@@ -1715,7 +1720,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count462
+\c@section@level=\count464
 )
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
@@ -1850,7 +1855,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
-\c@frontmatterpage=\count463
+\c@frontmatterpage=\count465
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 32.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2004,9 +2009,9 @@ File: bilder/kurs.png Graphic file (type png)
 Package pdftex.def Info: bilder/kurs.png  used on input line 8.
 (pdftex.def)             Requested size: 227.62204pt x 127.27614pt.
 
-Overfull \hbox (1.92279pt too wide) in paragraph at lines 13--14
-\T1/ptm/m/n/12 bil-dung [][]4.2[][]), die nebeneinan-der an-ge-ord-net sind. Di
-e schwarze Lin-ie be-sitzt dieselbe
+Overfull \hbox (7.25072pt too wide) in paragraph at lines 13--14
+\T1/ptm/m/n/12 bil-dung [][]4.2a[][]), die nebeneinan-der an-ge-ord-net sind. D
+ie schwarze Lin-ie be-sitzt dieselbe
  []
 
 <bilder/linienfolger-drei-sensoren.png, id=170, 2090.81125pt x 2975.115pt>
@@ -2014,56 +2019,57 @@ File: bilder/linienfolger-drei-sensoren.png Graphic file (type png)
 <use bilder/linienfolger-drei-sensoren.png>
 Package pdftex.def Info: bilder/linienfolger-drei-sensoren.png  used on input l
 ine 19.
-(pdftex.def)             Requested size: 161.32492pt x 229.5249pt.
+(pdftex.def)             Requested size: 101.54779pt x 144.54pt.
 <bilder/linienfolger-zwei-sensoren.png, id=171, 1554.80875pt x 1507.6325pt>
 File: bilder/linienfolger-zwei-sensoren.png Graphic file (type png)
 <use bilder/linienfolger-zwei-sensoren.png>
 Package pdftex.def Info: bilder/linienfolger-zwei-sensoren.png  used on input l
-ine 25.
-(pdftex.def)             Requested size: 161.32492pt x 156.4082pt.
+ine 26.
+(pdftex.def)             Requested size: 149.06065pt x 144.54pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 30.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 30.
- [7
-
- <./bilder/kurs.png>]
-Overfull \hbox (9.13513pt too wide) in paragraph at lines 31--32
+Overfull \hbox (9.13513pt too wide) in paragraph at lines 33--34
 \T1/ptm/m/n/12 räumen. Die Zustände bei-der Lin-ien-fol-ger sind in den Tabelle
 n [][]4.1[][] und [][]4.2[][] angegeben. 
  []
 
 
-Overfull \hbox (19.29414pt too wide) in paragraph at lines 79--80
+Underfull \vbox (badness 4479) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 59.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 59.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 59.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 59.
+ [7
+
+ <./bilder/kurs.png>]
+Overfull \hbox (19.29414pt too wide) in paragraph at lines 81--82
 \T1/ptm/m/n/12 Pa-ram-e-ter (siehe Tabelle [][]4.4[][]) ein, um die Ver-gle-ich
 -barkeit der Ergeb-nisse zu gewährleis-
+ []
+
+
+Overfull \hbox (36.0962pt too wide) in paragraph at lines 93--104
+ [][] 
  []
 
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 128.
 
 [8 <./bilder/linienfolger-drei-sensoren.png> <./bilder/linienfolger-zwei-sensor
 en.png>]
-Overfull \hbox (36.0962pt too wide) in paragraph at lines 91--102
- [][] 
- []
-
 
 ! Package pgfkeys Error: I do not know the key '/tikz/bend below' and I am goin
 g to ignore it. Perhaps you misspelled it.
@@ -2072,7 +2078,7 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 ... edge [bend below] node [top] {$a_1$} (4)
+l.144 ... edge [bend below] node [top] {$a_1$} (4)
                                                   
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -2087,12 +2093,12 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 ... edge [bend below] node [top] {$a_1$} (4)
+l.144 ... edge [bend below] node [top] {$a_1$} (4)
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 146--146
+Underfull \hbox (badness 3260) in paragraph at lines 148--148
 [][]|\T1/phv/m/n/9 Op-ti-male Strate-gie bei zwei
  []
 
@@ -2104,7 +2110,7 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.170 ...dge [bend above] node [above] {$a_0$} (5)
+l.172 ...dge [bend above] node [above] {$a_0$} (5)
                                                   
 (That was another \errmessage.)
 
@@ -2116,34 +2122,40 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 ...bend right] node [left below] {$a_0$} (1)
+l.179 ...bend right] node [left below] {$a_0$} (1)
                                                   ;
 (That was another \errmessage.)
 
 
-Overfull \hbox (11.10213pt too wide) in paragraph at lines 178--179
+Overfull \hbox (11.10213pt too wide) in paragraph at lines 180--181
  [][] 
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 179--179
+Underfull \hbox (badness 5667) in paragraph at lines 181--181
 [][]|\T1/phv/m/n/9 Op-ti-male Strate-gie bei drei
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 247.
 
 [9]
-Overfull \hbox (24.72903pt too wide) in paragraph at lines 242--243
+Overfull \hbox (24.72903pt too wide) in paragraph at lines 248--249
 []\T1/ptm/m/n/12 Im All-ge-meinen ist die op-ti-male Kom-bi-na-tion aus Ruhezei
 t-en und Mo-torgeschwindigkeit
  []
@@ -2161,18 +2173,6 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
 [10]
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1.
-
-[11]
 chapter 5.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -2193,7 +2193,19 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 49.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 49.
+ [11
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 49.
  [12
+
 
 ]
 chapter without number
@@ -2223,8 +2235,6 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
                    \relax 
 l.66 \listoftables
                    [2
-
-
 
 ] (../temp/thesis.lot)
 \tf@lot=\write9
@@ -2287,10 +2297,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41418 strings out of 494590
- 806760 string characters out of 6177483
- 1393567 words of memory out of 5000000
- 44351 multiletter control sequences out of 15000+600000
+ 41479 strings out of 494590
+ 807852 string characters out of 6177483
+ 1402645 words of memory out of 5000000
+ 44410 multiletter control sequences out of 15000+600000
  597914 words of font info for 102 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  75i,12n,67p,10500b,2180s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2311,10 +2321,10 @@ t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts
 /urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ../temp/thesis.pdf (19 pages, 15945669 bytes).
+Output written on ../temp/thesis.pdf (19 pages, 15945783 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
+ 335 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
  54 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

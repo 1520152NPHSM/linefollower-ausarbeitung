@@ -12,20 +12,22 @@ Für die Erprobung des Q-Learning-Algorithmus wurden zwei Linienfolger und eine 
 
 Die beiden Linienfolger unterscheiden sich in der Anzahl und der Anordnung der Farbsensoren. Der erste Linienfolger $L_0$ verfügt über drei Farbsensoren (siehe Abbildung \ref{fig:linienfolger-drei-sensoren}), die nebeneinander angeordnet sind. Die schwarze Linie besitzt dieselbe Breite wie der Lichtkegel eines Farbsensors. Es ist gewünscht, dass die Linie immer unter dem mittleren Sensor ist. Im Gegensatz zum ersten Linienfolger besitzt der zweite Linienfolger $L_1$ zwei Farbsensoren, die angewinkelt angeordnet sind (siehe Abbildung \ref{fig:linienfolger-zwei-sensoren}). Im optimalen Fall liegt die Linie genau in den sich überschneidenden Lichtkegeln der zwei Sensoren.
 
-\begin{figure}[H]
+\begin{figure}
     \centering
-    \begin{minipage}{0.45\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=0.9\textwidth]{linienfolger-drei-sensoren.png}
-        \caption{$L_0$}
+        \includegraphics[height=2in]{linienfolger-drei-sensoren.png}
+        \subcaption{$L_0$}
         \label{fig:linienfolger-drei-sensoren}
-    \end{minipage}\hfill
-    \begin{minipage}{0.45\textwidth}
+    \end{subfigure}%
+    \qquad
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=0.9\textwidth]{linienfolger-zwei-sensoren.png}
-        \caption{$L_1$}
+        \includegraphics[height=2in]{linienfolger-zwei-sensoren.png}
+        \subcaption{$L_1$}
         \label{fig:linienfolger-zwei-sensoren}
-    \end{minipage}
+    \end{subfigure}
+    \caption{Linienfolger}
 \end{figure}
 
 Die Sensoranordnungen der Linienfolger führt zu zwei unterschiedlichen Zu\-stands\-räumen. Die Zustände beider Linienfolger sind in den Tabellen \ref{tab:zustaende_drei_sensoren} und \ref{tab:zustaende_zwei_sensoren} angegeben.
@@ -190,8 +192,10 @@ Bei beiden Linienfolgern wurden die optimalen Aktionen für jeden Zustand alle 2
   \centering
   \sffamily
   \begin{footnotesize}
-    \begin{tabular}{l l l l l l l l l}
+    \begin{tabular}{l l l l l}
     \toprule
+       &   \multicolumn{4}{c}{\textbf{Zustände}}             \\
+    \cmidrule(lr){2-5}
     \textbf{Schritte} & \textbf{$s_0$} & \textbf{$s_1$} & \textbf{$s_2$} & \textbf{$s_3$}\\
     \midrule
     200     &       $a_2$   &       $a_1$   &       $a_1$   &       $a_0$\\
@@ -219,6 +223,8 @@ Bei beiden Linienfolgern wurden die optimalen Aktionen für jeden Zustand alle 2
   \begin{footnotesize}
     \begin{tabular}{l l l l l l l l l}
     \toprule
+       &   \multicolumn{8}{c}{\textbf{Zustände}}             \\
+    \cmidrule(lr){2-9}
     \textbf{Schritte} & \textbf{$s_0$} & \textbf{$s_1$} & \textbf{$s_2$} & \textbf{$s_3$} & \textbf{$s_4$} & \textbf{$s_5$} & \textbf{$s_6$} & \textbf{$s_7$}\\
     \midrule
     200     &       $a_0$   &       $a_1$   &       $a_2$   &       $a_0$   &       $a_0$   &       $a_2$   &       $a_0$   &       $a_0$\\
